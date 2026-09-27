@@ -49,6 +49,14 @@
 <td align="center"><sub>The fit converging, step by step</sub></td>
 <td align="center"><sub>Skeleton and mesh riding a swimming shark</sub></td>
 </tr>
+<tr>
+<td><img src="assets/motion/terramesh-cave-turntable.gif" width="100%" alt="TerraMesh: 360 degree turntable of an abalone cave scanned with an iPhone"></td>
+<td><img src="assets/motion/terramesh-cave-sweeps.jpg" width="100%" alt="TerraMesh: four sweeps of the same abalone cave"></td>
+</tr>
+<tr>
+<td align="center"><sub>TerraMesh: an abalone cave scanned with an iPhone</sub></td>
+<td align="center"><sub>Four sweeps of the same cave, 23 September</sub></td>
+</tr>
 </table>
 
 ## Spin it in 3D
@@ -253,6 +261,14 @@ About 30 dB fainter than the old detector, on a synthetic-noise bench; the outdo
 </picture>
 
 Synthetic deployment. Built with Dylan Moran. <a href="https://github.com/dbold23/anchor-track-skeleton">Code skeleton.</a>
+</details>
+
+<details>
+<summary><b>TerraMesh</b> · walk a site with an iPhone, get a 3D habitat map</summary>
+<br>
+<img src="assets/motion/terramesh-cave-turntable.gif" width="100%" alt="Cave turntable">
+
+Evidence photos placed in 3D with ARKit, photogrammetry and cube-scaled measurement afterwards, and field-station workers for sound, photo ID and individuals. <a href="https://github.com/dbold23/terramesh-skeleton">Code skeleton.</a>
 </details>
 
 ## Tools
