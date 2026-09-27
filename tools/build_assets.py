@@ -31,7 +31,7 @@ def banner():
     import base64
     BG = base64.b64encode((OUT / "banner-bg.png").read_bytes()).decode()
     rings = "".join(
-        f'<circle cx="787" cy="96" r="10" class="ring" style="animation-delay:{d}s"/>'
+        f'<circle cx="802" cy="142" r="10" class="ring" style="animation-delay:{d}s"/>'
         for d in (0, 1.1, 2.2)
     )
     contours = "".join(
@@ -43,7 +43,7 @@ def banner():
 <title id="t">Dan Sambold</title>
 <desc id="d">Marine scientist and research engineer. A white shark with a pulsing fin tag and a leopard shark in deep water.</desc>
 <style>
-.ring{{fill:none;stroke:{AMBER};stroke-width:2;transform-origin:787px 96px;animation:ping 3.3s ease-out infinite;opacity:0}}
+.ring{{fill:none;stroke:{AMBER};stroke-width:2;transform-origin:802px 142px;animation:ping 3.3s ease-out infinite;opacity:0}}
 @keyframes ping{{0%{{transform:scale(1);opacity:.9}}100%{{transform:scale(9);opacity:0}}}}
 .kb{{transform-origin:900px 170px;animation:kb 18s ease-in-out infinite alternate}}
 @keyframes kb{{from{{transform:scale(1)}}to{{transform:scale(1.06) translate(-12px,4px)}}}}
@@ -62,8 +62,8 @@ def banner():
 {"".join(f'<circle cx="{x}" cy="{y}" r="{r}"/>' for x, y, r in ((520,280,1.2),(610,330,1),(880,300,1.5),(960,420,1),(1110,360,1.3),(760,460,1),(1160,520,1.1),(450,480,1),(1050,560,1.4),(820,590,1)))}
 </g>
 {rings}
-<circle cx="787" cy="96" r="4" fill="{AMBER}"/>
-<text x="787" y="72" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{AMBER}" fill-opacity=".85">151.2 MHz</text>
+<circle cx="802" cy="142" r="4" fill="{AMBER}"/>
+<text x="802" y="118" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{AMBER}" fill-opacity=".85">151.2 MHz</text>
 <text x="64" y="128" font-family="{FONT}" font-size="54" font-weight="700" fill="{FOAM}">Dan Sambold</text>
 <text x="66" y="168" font-family="{FONT}" font-size="24" fill="{TEAL}">Marine scientist and research engineer</text>
 <text x="66" y="206" font-family="{FONT}" font-size="16" fill="{MIST}">Computer vision, radio telemetry and field instruments</text>
