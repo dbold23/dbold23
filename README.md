@@ -266,9 +266,9 @@ Synthetic deployment. Built with Dylan Moran. <a href="https://github.com/dbold2
 <details>
 <summary><b>TerraMesh</b> · walk a site with an iPhone, get a 3D habitat map</summary>
 <br>
-<img src="assets/motion/terramesh-cave-turntable.gif" width="100%" alt="Cave turntable">
+<img src="assets/motion/terramesh-pipeline-stages.gif" width="100%" alt="The abalone cave at each stage: sparse points, dense cloud, mesh, textured model">
 
-Evidence photos placed in 3D with ARKit, photogrammetry and cube-scaled measurement afterwards, and field-station workers for sound, photo ID and individuals. <a href="https://github.com/dbold23/terramesh-skeleton">Code skeleton.</a>
+Sparse points, dense cloud, mesh, textured model: one cave, stage by stage. Evidence photos placed in 3D with ARKit, cube-scaled photogrammetry afterwards, and field-station workers for sound, photo ID and individuals. <a href="https://github.com/dbold23/terramesh-skeleton">Code skeleton.</a>
 </details>
 
 ## Tools
