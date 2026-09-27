@@ -287,7 +287,3 @@ Evidence photos placed in 3D with ARKit, photogrammetry and cube-scaled measurem
   <img alt="AWS" src="https://img.shields.io/badge/AWS%20EC2-0b1f33?style=flat-square&logo=amazonwebservices&logoColor=2bb3a9">
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dbold23/dbold23/output/snake-dark.svg">
-  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/dbold23/dbold23/output/snake.svg" width="100%">
-</picture>
