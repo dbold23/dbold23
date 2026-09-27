@@ -93,6 +93,17 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="50%"><img src="assets/motion/sevengill-turntable.gif" width="100%" alt="My textured 3D scan of a sevengill shark, turning"></td>
+<td width="50%"><a href="assets/sevengill-handling-dummy.stl"><img src="assets/tiles/sevengill-dummy.svg" alt="Life-size 2 m sevengill handling dummy, rotatable" width="100%"></a></td>
+</tr>
+<tr>
+<td align="center"><sub>Sevengill, my textured scan</sub></td>
+<td align="center"><sub>Life-size 2 m handling dummy; prints in 10 segments</sub></td>
+</tr>
+</table>
+
 <sub>Click one to open it in GitHub's 3D viewer: drag to orbit, scroll to zoom.</sub>
 
 ## Where I work
