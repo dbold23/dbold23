@@ -224,7 +224,7 @@
 <br>
 <img src="assets/flow-pose3d.svg" width="100%" alt="Detect, segment, fit, measure, ledger">
 
-250 individuals fitted. Length proportions are quotable; absolute girth reads 7 to 12 % wide on a known-truth control and waits on an external calibration. Now: telling individuals apart by fin, pigment and scars across 995 videos.
+250 individuals fitted. Length proportions are quotable; absolute girth reads 7 to 12 % wide on a known-truth control and waits on an external calibration. Now: telling individuals apart by fin, pigment and scars across 995 videos. <a href="https://github.com/dbold23/shark-pose-3d-skeleton">Code skeleton.</a>
 </details>
 
 <details>
@@ -232,7 +232,7 @@
 <br>
 <img src="assets/flow-annotator.svg" width="100%" alt="Label, track, consensus, retrain, verify">
 
-Live for the lab at <a href="https://annotate.shark-id.org">annotate.shark-id.org</a>. Consensus counts "no scar here" as a vote.
+Live for the lab at <a href="https://annotate.shark-id.org">annotate.shark-id.org</a>. Consensus counts "no scar here" as a vote. <a href="https://github.com/dbold23/shark-scar-annotator-skeleton">Code skeleton.</a>
 </details>
 
 <details>
@@ -241,7 +241,7 @@ Live for the lab at <a href="https://annotate.shark-id.org">annotate.shark-id.or
 <img src="assets/flow-relay.svg" width="100%" alt="Detection chain">
 <img src="assets/relay-sensitivity.svg" width="100%" alt="Detector sensitivity, synthetic bench">
 
-About 30 dB fainter than the old detector, on a synthetic-noise bench; the outdoor range walk is next. <a href="https://dbold23.github.io/demos/relaystation/">Try the dashboard demo.</a>
+About 30 dB fainter than the old detector, on a synthetic-noise bench; the outdoor range walk is next. <a href="https://dbold23.github.io/demos/relaystation/">Try the dashboard demo</a> or read the <a href="https://github.com/dbold23/relaystation-skeleton">code skeleton</a>.
 </details>
 
 <details>
@@ -252,7 +252,7 @@ About 30 dB fainter than the old detector, on a synthetic-noise bench; the outdo
   <img src="assets/anchor-track.png" width="100%" alt="Synthetic leopard shark track with credible bands">
 </picture>
 
-Synthetic deployment. Built with Dylan Moran.
+Synthetic deployment. Built with Dylan Moran. <a href="https://github.com/dbold23/anchor-track-skeleton">Code skeleton.</a>
 </details>
 
 ## Tools
