@@ -60,6 +60,9 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 
 <p align="center"><img src="assets/motion/pose3d-skeleton-overlay.gif" width="100%" alt="shark-pose-3d: detected keypoints, fitted skeleton and mesh riding a swimming white shark, with the heatmaps and the mesh in camera space"></p>
 
+<p align="center"><img src="assets/motion/pose3d-fit-process.gif" width="100%" alt="The fit on one shark, stage by stage: video window, keypoints, silhouette, SharkSMPL fit and girth field"></p>
+<p align="center"><sub>One shark, start to finish: video window, keypoints, silhouette, 3D fit, girth field</sub></p>
+
 <table>
 <tr>
 <td width="50%"><img src="assets/motion/pose3d-fit-optimisation.gif" width="100%" alt="The 3D fit converging step by step, with loss curves"></td>
@@ -92,6 +95,11 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 <sub>Click one to open it in GitHub's 3D viewer: drag to orbit, scroll to zoom.</sub>
 
 ## Where I work
+
+<table><tr>
+<td width="42%"><img src="assets/motion/field-sites-map.gif" width="100%" alt="Flyover of five California landscapes from my website: Santa Cruz Mountains, Nisene Marks, Elkhorn Slough, Big Sur and Santa Lucia"></td>
+<td width="58%">Five landscapes where I have done conservation and fieldwork, flown over on real satellite imagery and terrain from <a href="https://dbold23.github.io">my website</a>. Below, a map of every research site: drag, zoom and click a pin.<br><br><sub>Imagery: Esri, Vantor, Earthstar Geographics. Terrain: AWS Terrain Tiles. Boundaries: OpenStreetMap contributors.</sub></td>
+</tr></table>
 
 ```geojson
 {
