@@ -36,16 +36,32 @@
 
 <sub>Click a tile: live app, interactive dashboard demo, code, or the story on my site.</sub>
 
-## Spin the sharks
+## In motion
+
+<p align="center"><img src="assets/motion/pose3d-mesh-vs-silhouette.gif" width="100%" alt="shark-pose-3d: 3D shark mesh fitted to video, reprojected over the SAM 2.1 silhouette, with keypoint heatmaps and the mesh in camera space"></p>
 
 <table>
 <tr>
-<td width="50%"><a href="assets/white-shark.stl"><img src="assets/spin-white-shark.svg" alt="White shark 3D model, rotating" width="100%"></a></td>
-<td width="50%"><a href="assets/leopard-shark.stl"><img src="assets/spin-leopard-shark.svg" alt="Leopard shark 3D model, rotating" width="100%"></a></td>
+<td width="50%"><img src="assets/motion/pose3d-fit-optimisation.gif" width="100%" alt="The 3D fit converging step by step"></td>
+<td width="50%"><img src="assets/motion/pose3d-skeleton-overlay.gif" width="100%" alt="Skeleton and mesh outline on a swimming shark"></td>
+</tr>
+<tr>
+<td align="center"><sub>The fit converging, step by step</sub></td>
+<td align="center"><sub>Skeleton and mesh riding a swimming shark</sub></td>
 </tr>
 </table>
 
-<sub>Click one to open the model in GitHub's 3D viewer: drag to orbit, scroll to zoom.</sub>
+## Spin it in 3D
+
+<table>
+<tr>
+<td width="33%"><a href="assets/white-shark.stl"><img src="assets/spin-white-shark.svg" alt="White shark 3D model, rotating" width="100%"></a></td>
+<td width="33%"><a href="assets/leopard-shark.stl"><img src="assets/spin-leopard-shark.svg" alt="Leopard shark 3D model, rotating" width="100%"></a></td>
+<td width="33%"><a href="assets/relay-tripod.stl"><img src="assets/tiles/relay-tripod.svg" alt="RELAY antenna tripod CAD" width="100%"></a></td>
+</tr>
+</table>
+
+<sub>Click one to open it in GitHub's 3D viewer: drag to orbit, scroll to zoom.</sub>
 
 ## Where I work
 
