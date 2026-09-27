@@ -28,8 +28,10 @@ SHARK = (
 
 
 def banner():
+    import base64
+    SPRITE = base64.b64encode((OUT / "white-shark-sprite.webp").read_bytes()).decode()
     rings = "".join(
-        f'<circle cx="1020" cy="150" r="14" class="ring" style="animation-delay:{d}s"/>'
+        f'<circle cx="1110" cy="64" r="12" class="ring" style="animation-delay:{d}s"/>'
         for d in (0, 1.1, 2.2)
     )
     contours = "".join(
@@ -39,15 +41,17 @@ def banner():
     )
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
 <title id="t">Dan Sambold</title>
-<desc id="d">Marine scientist and research engineer. A shark swims past a pulsing radio tag.</desc>
+<desc id="d">Marine scientist and research engineer. A 3D white shark swims past a pulsing radio tag.</desc>
 <style>
-.ring{{fill:none;stroke:{AMBER};stroke-width:2;transform-origin:1020px 150px;animation:ping 3.3s ease-out infinite;opacity:0}}
+.ring{{fill:none;stroke:{AMBER};stroke-width:2;transform-origin:1110px 64px;animation:ping 3.3s ease-out infinite;opacity:0}}
 @keyframes ping{{0%{{transform:scale(1);opacity:.9}}100%{{transform:scale(9);opacity:0}}}}
-.swim{{animation:swim 14s ease-in-out infinite alternate}}
-@keyframes swim{{from{{transform:translate(640px,118px)}}to{{transform:translate(700px,126px)}}}}
+.frames{{animation:frames 6s steps(24) infinite}}
+@keyframes frames{{to{{transform:translateY(-7200px)}}}}
+.swim{{animation:swim 16s ease-in-out infinite alternate}}
+@keyframes swim{{from{{transform:translate(560px,0)}}to{{transform:translate(610px,10px)}}}}
 .drift{{animation:drift 9s linear infinite}}
 @keyframes drift{{from{{transform:translateY(0)}}to{{transform:translateY(-300px)}}}}
-@media (prefers-reduced-motion:reduce){{.ring,.swim,.drift{{animation:none}}.ring{{opacity:.35}}}}
+@media (prefers-reduced-motion:reduce){{.ring,.swim,.drift,.frames{{animation:none}}.ring{{opacity:.35}}}}
 </style>
 <defs>
 <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#123a55"/><stop offset=".55" stop-color="{NAVY}"/><stop offset="1" stop-color="{DEEP}"/></linearGradient>
@@ -59,12 +63,10 @@ def banner():
 <g class="drift" fill="{FOAM}" fill-opacity=".35">
 {"".join(f'<circle cx="{x}" cy="{y}" r="{r}"/>' for x, y, r in ((520,280,1.2),(610,330,1),(880,300,1.5),(960,420,1),(1110,360,1.3),(760,460,1),(1160,520,1.1),(450,480,1),(1050,560,1.4),(820,590,1)))}
 </g>
-<g class="swim"><g transform="scale(.9)"><path d="{SHARK}" fill="#2a4a63" stroke="{MIST}" stroke-opacity=".5" stroke-width="1.5"/>
-<path d="M14,44 C50,54 110,58 160,58" fill="none" stroke="{FOAM}" stroke-opacity=".35" stroke-width="2"/>
-<circle cx="30" cy="36" r="2.4" fill="{FOAM}" fill-opacity=".7"/></g></g>
+<g class="swim"><svg width="560" height="300" viewBox="0 0 560 300" overflow="hidden"><image class="frames" href="data:image/webp;base64,{SPRITE}" width="560" height="7200"/></svg></g>
 {rings}
-<circle cx="1020" cy="150" r="5" fill="{AMBER}"/>
-<text x="1020" y="186" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{AMBER}" fill-opacity=".85">151.2 MHz</text>
+<circle cx="1110" cy="64" r="5" fill="{AMBER}"/>
+<text x="1110" y="96" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{AMBER}" fill-opacity=".85">151.2 MHz</text>
 <text x="64" y="128" font-family="{FONT}" font-size="54" font-weight="700" fill="{FOAM}">Dan Sambold</text>
 <text x="66" y="168" font-family="{FONT}" font-size="24" fill="{TEAL}">Marine scientist and research engineer</text>
 <text x="66" y="206" font-family="{FONT}" font-size="16" fill="{MIST}">Computer vision, radio telemetry and field instruments</text>
@@ -205,3 +207,27 @@ if __name__ == "__main__":
          "Length proportions are quotable; absolute girth waits on an external calibration (drone stations).")
     relay_chart()
     print("wrote", sorted(p.name for p in OUT.iterdir()))
+
+
+def spin_tile(slug, title, sub, n=36, w=560, h=280):
+    """A tile with a turntable of one of the site's 3D shark models (sprite rendered with three.js)."""
+    import base64
+    sprite = base64.b64encode((OUT / f"{slug}-spin.webp").read_bytes()).decode()
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h + 70}" viewBox="0 0 {w} {h + 70}" role="img" aria-label="{escape(title)}, rotating 3D model">
+<style>.f{{animation:f 9s steps({n}) infinite}}@keyframes f{{to{{transform:translateY(-{n * h}px)}}}}@media (prefers-reduced-motion:reduce){{.f{{animation:none}}}}</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#123a55"/><stop offset="1" stop-color="{DEEP}"/></linearGradient>
+<clipPath id="r"><rect width="{w}" height="{h + 70}" rx="14"/></clipPath></defs>
+<g clip-path="url(#r)"><rect width="{w}" height="{h + 70}" fill="url(#bg)"/>
+<ellipse cx="{w / 2}" cy="{h - 18}" rx="{w * .3}" ry="14" fill="#000" fill-opacity=".25"/>
+<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" overflow="hidden"><image class="f" href="data:image/webp;base64,{sprite}" width="{w}" height="{n * h}"/></svg></g>
+<text x="20" y="{h + 32}" font-family="{FONT}" font-size="20" font-weight="700" fill="{FOAM}">{escape(title)}</text>
+<text x="20" y="{h + 54}" font-family="{FONT}" font-size="13" fill="{MIST}">{escape(sub)}</text>
+<text x="{w - 20}" y="{h + 42}" text-anchor="end" font-family="{MONO}" font-size="12" fill="{AMBER}">click to spin it yourself</text>
+<rect x=".5" y=".5" width="{w - 1}" height="{h + 69}" rx="14" fill="none" stroke="{TEAL_DIM}" stroke-opacity=".7"/>
+</svg>'''
+    (OUT / f"spin-{slug}.svg").write_text(svg)
+
+
+if __name__ == "__main__":
+    spin_tile("white-shark", "White shark", "Carcharodon carcharias")
+    spin_tile("leopard-shark", "Leopard shark", "Triakis semifasciata")
