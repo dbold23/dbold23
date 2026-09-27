@@ -30,13 +30,14 @@ def tile(slug, rel, kicker, title, stat="", accent="#2bb3a9", w=400, h=260, pos=
                     f'<text x="{w - 14 - sw / 2}" y="33" text-anchor="middle" font-family="{FONT}" font-size="14" font-weight="700" fill="{accent}">{escape(stat)}</text>')
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(title)}">
 <defs><clipPath id="r"><rect width="{w}" height="{h}" rx="14"/></clipPath>
-<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset=".45" stop-color="#071522" stop-opacity="0"/><stop offset="1" stop-color="#071522" stop-opacity=".92"/></linearGradient></defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset=".38" stop-color="#071522" stop-opacity="0"/><stop offset=".7" stop-color="#071522" stop-opacity=".62"/><stop offset="1" stop-color="#071522" stop-opacity=".96"/></linearGradient>
+<filter id="ts" x="-5%" y="-40%" width="110%" height="180%"><feDropShadow dx="0" dy="1" stdDeviation="1.6" flood-color="#000" flood-opacity=".85"/></filter></defs>
 <g clip-path="url(#r)"><image href="{data_uri(rel)}" width="{w}" height="{h}" preserveAspectRatio="{pos} slice"/>
 <rect width="{w}" height="{h}" fill="url(#g)"/></g>
 <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="14" fill="none" stroke="{accent}" stroke-opacity=".55"/>
 {stat_svg}
-<text x="18" y="{h - 46}" font-family="{MONO}" font-size="11" letter-spacing="1.4" fill="{accent}">{escape(kicker.upper())}</text>
-<text x="18" y="{h - 20}" font-family="{FONT}" font-size="21" font-weight="700" fill="#e6f2f1">{escape(title)}</text>
+<text x="18" y="{h - 46}" font-family="{MONO}" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="{accent}" filter="url(#ts)">{escape(kicker.upper())}</text>
+<text x="18" y="{h - 20}" font-family="{FONT}" font-size="21" font-weight="700" fill="#ffffff" filter="url(#ts)">{escape(title)}</text>
 </svg>'''
     (OUT / f"{slug}.svg").write_text(svg)
 

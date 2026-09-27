@@ -1,3 +1,4 @@
+<!-- Hello, source reader. Every shark on this page is a 3D model or a photo; none of them were asked to spin. -->
 <p align="center">
   <img src="assets/banner.svg" alt="Dan Sambold, marine scientist and research engineer" width="100%">
 </p>
@@ -83,20 +84,20 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 </tr>
 </table>
 
-## Spin it in 3D
+## Spin it in 3D <sub>(weeeeeee)</sub>
 
 <table>
 <tr>
-<td width="33%"><a href="assets/white-shark.stl"><img src="assets/spin-white-shark.svg" alt="White shark 3D model, rotating" width="100%"></a></td>
-<td width="33%"><a href="assets/leopard-shark.stl"><img src="assets/spin-leopard-shark.svg" alt="Leopard shark 3D model, rotating" width="100%"></a></td>
-<td width="33%"><a href="assets/relay-station-revg.stl"><img src="assets/tiles/relay-tripod.svg" alt="RELAY Rev G field station CAD, rotatable" width="100%"></a></td>
+<td width="33%"><a href="assets/white-shark.stl"><img src="assets/spin-white-shark.svg" alt="White shark 3D model, rotating" title="weeeeeee" width="100%"></a></td>
+<td width="33%"><a href="assets/leopard-shark.stl"><img src="assets/spin-leopard-shark.svg" alt="Leopard shark 3D model, rotating" title="The leopard shark would like to get off now" width="100%"></a></td>
+<td width="33%"><a href="assets/relay-station-revg.stl"><img src="assets/tiles/relay-tripod.svg" alt="RELAY Rev G field station CAD, rotatable" title="Not a shark. Spins anyway." width="100%"></a></td>
 </tr>
 </table>
 
 <table>
 <tr>
-<td width="50%"><img src="assets/motion/sevengill-turntable.gif" width="100%" alt="My textured 3D scan of a sevengill shark, turning"></td>
-<td width="50%"><a href="assets/sevengill-handling-dummy.stl"><img src="assets/tiles/sevengill-dummy.svg" alt="Life-size 2 m sevengill handling dummy, rotatable" width="100%"></a></td>
+<td width="50%"><img src="assets/motion/sevengill-turntable.gif" width="100%" alt="My textured 3D scan of a sevengill shark, turning" title="Seven gills, zero complaints"></td>
+<td width="50%"><a href="assets/sevengill-handling-dummy.stl"><img src="assets/tiles/sevengill-dummy.svg" alt="Life-size 2 m sevengill handling dummy, rotatable" title="Holds very still for tagging practice" width="100%"></a></td>
 </tr>
 <tr>
 <td align="center"><sub>Sevengill, my textured scan</sub></td>
@@ -104,7 +105,7 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 </tr>
 </table>
 
-<sub>Click one to open it in GitHub's 3D viewer: drag to orbit, scroll to zoom.</sub>
+<sub>Click one to open it in GitHub's 3D viewer: drag to orbit, scroll to zoom. Hover for a word from the models.</sub>
 
 ## Where I work
 
@@ -327,3 +328,4 @@ Sparse points, dense cloud, mesh, textured model: one cave, stage by stage. Evid
   <img alt="AWS" src="https://img.shields.io/badge/AWS%20EC2-0b1f33?style=flat-square&logo=amazonwebservices&logoColor=2bb3a9">
 </p>
 
+<p align="center"><sub>No sharks were harmed in the making of this README. Several were spun quite a lot.</sub></p>

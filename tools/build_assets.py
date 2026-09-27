@@ -53,21 +53,28 @@ def banner():
 </style>
 <defs>
 <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#123a55"/><stop offset=".55" stop-color="{NAVY}"/><stop offset="1" stop-color="{DEEP}"/></linearGradient>
+<linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{DEEP}" stop-opacity=".82"/><stop offset=".38" stop-color="{DEEP}" stop-opacity=".55"/><stop offset=".58" stop-color="{DEEP}" stop-opacity="0"/></linearGradient>
+<filter id="ts" x="-5%" y="-30%" width="110%" height="160%"><feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#000" flood-opacity=".75"/></filter>
 <radialGradient id="sun" cx=".78" cy="-.1" r=".8"><stop offset="0" stop-color="{TEAL}" stop-opacity=".35"/><stop offset="1" stop-color="{TEAL}" stop-opacity="0"/></radialGradient>
 </defs>
 <clipPath id="bgc"><rect width="1200" height="300" rx="14"/></clipPath>
 <g clip-path="url(#bgc)"><image class="kb" href="data:image/png;base64,{BG}" width="1200" height="300"/>
-<rect width="1200" height="300" fill="url(#sun)" opacity=".5"/></g>
+<rect width="1200" height="300" fill="url(#sun)" opacity=".5"/>
+<rect width="1200" height="300" fill="url(#scrim)"/></g>
 <g class="drift" fill="{FOAM}" fill-opacity=".35">
 {"".join(f'<circle cx="{x}" cy="{y}" r="{r}"/>' for x, y, r in ((520,280,1.2),(610,330,1),(880,300,1.5),(960,420,1),(1110,360,1.3),(760,460,1),(1160,520,1.1),(450,480,1),(1050,560,1.4),(820,590,1)))}
 </g>
 {rings}
 <circle cx="802" cy="142" r="4" fill="{AMBER}"/>
-<text x="802" y="118" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{AMBER}" fill-opacity=".85">151.2 MHz</text>
-<text x="64" y="128" font-family="{FONT}" font-size="54" font-weight="700" fill="{FOAM}">Dan Sambold</text>
-<text x="66" y="168" font-family="{FONT}" font-size="24" fill="{TEAL}">Marine scientist and research engineer</text>
-<text x="66" y="206" font-family="{FONT}" font-size="16" fill="{MIST}">Computer vision, radio telemetry and field instruments</text>
-<text x="66" y="228" font-family="{FONT}" font-size="16" fill="{MIST}">for sharks and the coastal ocean.</text>
+<text x="802" y="118" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{AMBER}" filter="url(#ts)">151.2 MHz</text>
+<g filter="url(#ts)">
+<text x="64" y="120" font-family="{FONT}" font-size="56" font-weight="800" letter-spacing="-.5" fill="{FOAM}">Dan Sambold</text>
+<rect x="66" y="138" width="48" height="3" rx="1.5" fill="{AMBER}"/>
+<text x="66" y="176" font-family="{FONT}" font-size="23" font-weight="600" fill="#5fd6cc">Marine scientist and research engineer</text>
+<text x="66" y="212" font-family="{FONT}" font-size="16.5" fill="{FOAM}" fill-opacity=".92">Computer vision, radio telemetry and field instruments</text>
+<text x="66" y="236" font-family="{FONT}" font-size="16.5" fill="{FOAM}" fill-opacity=".92">for sharks and the coastal ocean.</text>
+</g>
+<text x="1188" y="292" text-anchor="end" font-family="{MONO}" font-size="9" fill="{FOAM}" fill-opacity=".45">no sharks were startled in the making of this banner</text>
 </svg>'''
     (OUT / "banner.svg").write_text(svg)
 
@@ -218,7 +225,7 @@ def spin_tile(slug, title, sub, n=36, w=560, h=280):
 <ellipse cx="{w / 2}" cy="{h - 18}" rx="{w * .3}" ry="14" fill="#000" fill-opacity=".25"/>
 <svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" overflow="hidden"><image class="f" href="data:image/webp;base64,{sprite}" width="{w}" height="{n * h}"/></svg></g>
 <text x="20" y="{h + 32}" font-family="{FONT}" font-size="20" font-weight="700" fill="{FOAM}">{escape(title)}</text>
-<text x="20" y="{h + 54}" font-family="{FONT}" font-size="13" fill="{MIST}">{escape(sub)}</text>
+<text x="20" y="{h + 54}" font-family="{FONT}" font-size="13" fill="#c3d4dd">{escape(sub)}</text>
 <text x="{w - 20}" y="{h + 42}" text-anchor="end" font-family="{MONO}" font-size="12" fill="{AMBER}">click to spin it yourself</text>
 <rect x=".5" y=".5" width="{w - 1}" height="{h + 69}" rx="14" fill="none" stroke="{TEAL_DIM}" stroke-opacity=".7"/>
 </svg>'''
