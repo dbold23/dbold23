@@ -79,7 +79,7 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 <tr>
 <td width="33%"><a href="assets/white-shark.stl"><img src="assets/spin-white-shark.svg" alt="White shark 3D model, rotating" width="100%"></a></td>
 <td width="33%"><a href="assets/leopard-shark.stl"><img src="assets/spin-leopard-shark.svg" alt="Leopard shark 3D model, rotating" width="100%"></a></td>
-<td width="33%"><a href="assets/relay-tripod.stl"><img src="assets/tiles/relay-tripod.svg" alt="RELAY antenna tripod CAD" width="100%"></a></td>
+<td width="33%"><a href="assets/relay-station-revg.stl"><img src="assets/tiles/relay-tripod.svg" alt="RELAY Rev G field station CAD, rotatable" width="100%"></a></td>
 </tr>
 </table>
 

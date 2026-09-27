@@ -63,7 +63,7 @@ if __name__ == "__main__":
     tile("pose3d", "pres/shark-3.avif", "3D shape from video", "shark-pose-3d", "250 sharks")
     tile("annotator", "shark-annotator-zones.png", "Live annotation app", "Shark Scar Annotator", "live", accent="#f2a93b", pos="xMinYMid")
     tile("relay", "pres/relay-1.avif", "Radio telemetry", "RelayStation", "-21 dB")
-    tile("relay-tripod", "/tmp/pa/relay-render.png", "RELAY hardware, my CAD", "Antenna tripod", "3D", pos="xMidYMax", w=560, h=350)
+    tile("relay-tripod", "/tmp/pa/revg-render.jpg", "RELAY Rev G, my CAD", "Field station", "3D", pos="xMidYMax", w=560, h=350)
     tile("anchor", "panels/anchor-track-map.avif", "Biologging", "anchor", "v0.1", accent="#f2a93b")
     tile("porpoise", "panels/porpoise-match.avif", "Photo re-ID", "PorpoiseID", "198 animals")
     tile("fathomnet", "panels/fathomnet-masks.avif", "MBARI, summer 2026", "FathomNet", accent="#f2a93b")
