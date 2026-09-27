@@ -21,7 +21,7 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 
 | Project | What needs work |
 |---|---|
-| [shark-pose-3d](https://github.com/dbold23/shark-pose-3d-skeleton#collaborate) | Absolute girth calibration (drone or phantom); an individual re-ID cue that holds up |
+| [shark-pose-3d](https://github.com/dbold23/shark-pose-3d-skeleton#collaborate) | Absolute girth calibration (drone or phantom); more views of the same animal |
 | [Shark Scar Annotator](https://github.com/dbold23/shark-scar-annotator-skeleton#collaborate) | Inter-rater evidence on real scars; expert answer keys; other scar archives |
 | [RelayStation](https://github.com/dbold23/relaystation-skeleton#collaborate) | The outdoor range walk; noise captures from new sites; field partners with VHF tags |
 | [anchor](https://github.com/dbold23/anchor-track-skeleton#collaborate) | Ground-truth tracks from paired tags and drones; speed calibration per species |
@@ -273,7 +273,7 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 <br>
 <img src="assets/flow-pose3d.svg" width="100%" alt="Detect, segment, fit, measure, ledger">
 
-250 individuals fitted. Length proportions are quotable; absolute girth reads 7 to 12 % wide on a known-truth control and waits on an external calibration. Now: telling individuals apart by fin, pigment and scars across 995 videos. <a href="https://github.com/dbold23/shark-pose-3d-skeleton">Code skeleton.</a>
+250 individuals fitted. Length proportions are quotable; absolute girth reads 7 to 12 % wide on a known-truth control and waits on an external calibration. Re-ID works on the trailing edge of the dorsal fin. <a href="https://github.com/dbold23/shark-pose-3d-skeleton">Code skeleton.</a>
 </details>
 
 <details>
