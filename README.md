@@ -13,6 +13,9 @@
 <p align="center"><b>I build the tools that measure wild animals we can rarely touch.</b><br>
 <sub>CSU Monterey Bay marine science, 2026 · MBARI FathomNet intern · AAUS scientific diver</sub></p>
 
+<p align="center"><img src="assets/mbari-presenting.jpg" width="100%" alt="Dan Sambold presenting his summer internship work from the podium at MBARI, with the FathomNet database on screen"><br>
+<sub><b>Presenting my summer internship work at MBARI</b>, with the FathomNet database on screen.</sub></p>
+
 <img src="assets/tiles/field-strip.svg" alt="In the water, with a tag and antenna, a RelayStation at sunset, presenting shark research" width="100%">
 
 ## Let's work together
