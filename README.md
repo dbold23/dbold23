@@ -14,6 +14,20 @@
 
 <img src="assets/tiles/field-strip.svg" alt="In the water, with a tag and antenna, a RelayStation at sunset, presenting shark research" width="100%">
 
+## Let's work together
+
+I'm looking for collaborators, field partners and labs with data. Each project lists what needs work at the top of its code skeleton.
+
+| Project | What needs work |
+|---|---|
+| [shark-pose-3d](https://github.com/dbold23/shark-pose-3d-skeleton#collaborate) | Absolute girth calibration (drone or phantom); an individual re-ID cue that holds up |
+| [Shark Scar Annotator](https://github.com/dbold23/shark-scar-annotator-skeleton#collaborate) | Inter-rater evidence on real scars; expert answer keys; other scar archives |
+| [RelayStation](https://github.com/dbold23/relaystation-skeleton#collaborate) | The outdoor range walk; noise captures from new sites; field partners with VHF tags |
+| [anchor](https://github.com/dbold23/anchor-track-skeleton#collaborate) | Ground-truth tracks from paired tags and drones; speed calibration per species |
+| [TerraMesh](https://github.com/dbold23/terramesh-skeleton#collaborate) | Field accuracy tests; on-device testing; intertidal and cave survey partners |
+
+<sub>Open an issue on any skeleton, or message me on <a href="https://www.linkedin.com/in/daniel-sambold-620b37221">LinkedIn</a>.</sub>
+
 ## Work
 
 <table>
