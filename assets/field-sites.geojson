@@ -1,0 +1,149 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "Farallon Islands",
+    "description": "White shark footage site",
+    "marker-color": "#2bb3a9",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -123.003,
+     37.698
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "Point Reyes",
+    "description": "White shark footage site",
+    "marker-color": "#2bb3a9",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.97,
+     38.07
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "Año Nuevo",
+    "description": "White shark footage site",
+    "marker-color": "#2bb3a9",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.337,
+     37.108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "Aptos",
+    "description": "White shark footage site",
+    "marker-color": "#2bb3a9",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -121.9,
+     36.97
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "Elkhorn Slough",
+    "description": "RelayStation field station; leopard shark and bat ray tags (anchor)",
+    "marker-color": "#f2a93b",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -121.77,
+     36.82
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "MBARI, Moss Landing",
+    "description": "FathomNet internship, summer 2026",
+    "marker-color": "#0b1f33",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -121.788,
+     36.802
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "CSU Monterey Bay",
+    "description": "B.S. Marine Science; Jue lab (TECAN)",
+    "marker-color": "#0b1f33",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -121.8,
+     36.654
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "Scripps Pier, La Jolla",
+    "description": "Pier camera computer vision",
+    "marker-color": "#0b1f33",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.257,
+     32.867
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "title": "Galápagos",
+    "description": "Solar RelayStation deployment",
+    "marker-color": "#f2a93b",
+    "marker-size": "medium"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.3,
+     -0.75
+    ]
+   }
+  }
+ ]
+}

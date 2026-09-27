@@ -182,24 +182,6 @@ def divider():
 if __name__ == "__main__":
     banner()
     divider()
-    card("pose3d", "3D shape from video", "shark-pose-3d",
-         ["Fits a rigged 3D shark to monocular", "underwater video and reads length", "proportions and girth profiles off it."],
-         "250", "individuals fitted", ["PyTorch", "SAM2", "SMPLify", "Blender"])
-    card("annotator", "Live annotation platform", "Shark Scar Annotator",
-         ["Multi-rater labelling of scars and a", "16-point skeleton on 20 years of", "white shark footage, with consensus."],
-         "live", "annotate.shark-id.org", ["Flask", "SQLite", "SAM2", "WebGL"], accent=AMBER)
-    card("relay", "Field radio telemetry", "RelayStation",
-         ["Raspberry Pi + SDR stations that hear", "VHF animal tags, report over NB-IoT,", "and update themselves over the air."],
-         "-21 dB", "weakest tag, bench", ["SDR", "numpy", "FastAPI", "NB-IoT"])
-    card("anchor", "Biologging", "anchor",
-         ["Dead-reckoned tracks pinned at release", "and recovery, with honest uncertainty,", "plus behaviour from accelerometers."],
-         "v0.1", "with Dylan Moran", ["Python", "Kalman", "GeoTIFF", "NetCDF"])
-    card("morpho", "Pose detection", "shark-morphometrics",
-         ["16-keypoint white shark pose model,", "trained by active learning from", "4,850 videos across four sites."],
-         "0.978", "box mAP50, v4 model", ["YOLOv8-pose", "OpenCV", "PyTorch"])
-    card("tecan", "Open source, lab tool", "TECAN growth curves",
-         ["Plate-reader export to Gompertz fits", "and a GOOD/BAD verdict with the", "reason, in a point-and-click app."],
-         "87.6%", "verdicts right, 960 test curves", ["Python", "SciPy", "Streamlit"], accent=AMBER)
     flow("relay", "RelayStation detection chain",
          [("SDR read", ["128 ms of IQ", "2.048 Msps"]),
           ("STFT survey", ["500 Hz bins, CFAR", "fitted per station"]),
