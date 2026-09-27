@@ -224,7 +224,7 @@
 <br>
 <img src="assets/flow-pose3d.svg" width="100%" alt="Detect, segment, fit, measure, ledger">
 
-250 individuals fitted. Length proportions are quotable; absolute girth reads 7 to 12 % wide on a known-truth control and waits on an external calibration.
+250 individuals fitted. Length proportions are quotable; absolute girth reads 7 to 12 % wide on a known-truth control and waits on an external calibration. Now: telling individuals apart by fin, pigment and scars across 995 videos.
 </details>
 
 <details>
