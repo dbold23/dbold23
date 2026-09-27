@@ -64,7 +64,7 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 <td align="center"><sub>Skeleton and mesh riding a swimming shark</sub></td>
 </tr>
 <tr>
-<td><img src="assets/motion/terramesh-cave-turntable.gif" width="100%" alt="TerraMesh: 360 degree turntable of an abalone cave scanned with an iPhone"></td>
+<td><img src="assets/motion/terramesh-abalone-cave.gif" width="100%" alt="TerraMesh: an abalone cave scanned with an iPhone and rebuilt in 3D"></td>
 <td><img src="assets/motion/terramesh-cave-sweeps.jpg" width="100%" alt="TerraMesh: four sweeps of the same abalone cave"></td>
 </tr>
 <tr>
