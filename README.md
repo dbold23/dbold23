@@ -86,6 +86,8 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 
 ## Spin it in 3D <sub>(weeeeeee)</sub>
 
+<p align="center"><img src="assets/motion/easter-barrel-roll.gif" width="320" alt="My white shark model doing barrel rolls while weeeeeee types itself out" title="weeeeeee"></p>
+
 <table>
 <tr>
 <td width="33%"><a href="assets/white-shark.stl"><img src="assets/spin-white-shark.svg" alt="White shark 3D model, rotating" title="weeeeeee" width="100%"></a></td>
@@ -166,5 +168,10 @@ Sparse points, dense cloud, mesh, textured model: one cave, stage by stage. Evid
   <img alt="Blender" src="https://img.shields.io/badge/Blender-0b1f33?style=flat-square&logo=blender&logoColor=f2a93b">
   <img alt="AWS" src="https://img.shields.io/badge/AWS%20EC2-0b1f33?style=flat-square&logo=amazonwebservices&logoColor=2bb3a9">
 </p>
+
+<details>
+<summary><sub>psst...</sub></summary>
+<p align="center"><img src="assets/motion/easter-leopard-spin.gif" width="220" alt="My leopard shark model, seen from above, chasing its tail" title="Almost got it"><br><sub>The leopard shark, still chasing its tail.</sub></p>
+</details>
 
 <p align="center"><sub>No sharks were harmed in the making of this README. Several were spun quite a lot.</sub></p>
