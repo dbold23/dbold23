@@ -59,7 +59,7 @@ width measurement. The 2D pose model it builds on (shark-morphometrics v4, 689 t
 
 Twenty years of footage from four California sites, and 10 to 20 undergraduates a
 semester. The platform turns that into multi-rater labels: scar boxes and types, a
-16-point skeleton, a 3D pin on a shark model, and consensus that treats "I looked and
+16-point skeleton, a prototype 3D pin on a shark model, and consensus that treats "I looked and
 there is no scar" as a vote. Live at [annotate.shark-id.org](https://annotate.shark-id.org).
 
 <img src="assets/flow-annotator.svg" width="100%" alt="Annotation flywheel: label, track, consensus, retrain, verify">
