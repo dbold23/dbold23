@@ -26,7 +26,13 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 | [anchor](https://github.com/dbold23/anchor-track-skeleton#collaborate) | Ground-truth tracks from paired tags and drones; speed calibration per species |
 | [TerraMesh](https://github.com/dbold23/terramesh-skeleton#collaborate) | Field accuracy tests; on-device testing; intertidal and cave survey partners |
 
-<sub>Open an issue on any skeleton, or message me on <a href="https://www.linkedin.com/in/daniel-sambold-620b37221">LinkedIn</a>.</sub>
+<p>
+  <a href="https://github.com/dbold23/dbold23/issues/new?template=1-collaborate.yml"><img alt="Propose a collaboration" src="https://img.shields.io/badge/Propose%20a%20collaboration-0b1f33?style=for-the-badge&labelColor=2bb3a9&color=2bb3a9"></a>
+  <a href="https://github.com/dbold23/dbold23/issues/new?template=2-beta-tester.yml"><img alt="Become a beta tester" src="https://img.shields.io/badge/Become%20a%20beta%20tester-0b1f33?style=for-the-badge&labelColor=f2a93b&color=f2a93b"></a>
+  <a href="https://github.com/dbold23/dbold23/issues/new?template=3-share-data.yml"><img alt="Share data or a site" src="https://img.shields.io/badge/Share%20data%20or%20a%20site-0b1f33?style=for-the-badge&labelColor=2bb3a9&color=2bb3a9"></a>
+</p>
+
+<sub>Each button opens a short form. Anything you would rather not post in public: <a href="https://www.linkedin.com/in/daniel-sambold-620b37221">LinkedIn</a>.</sub>
 
 ## Work
 
