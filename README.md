@@ -52,16 +52,16 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 
 ## In motion
 
-<p align="center"><img src="assets/motion/pose3d-mesh-vs-silhouette.gif" width="100%" alt="shark-pose-3d: 3D shark mesh fitted to video, reprojected over the SAM 2.1 silhouette, with keypoint heatmaps and the mesh in camera space"></p>
+<p align="center"><img src="assets/motion/pose3d-skeleton-overlay.gif" width="100%" alt="shark-pose-3d: detected keypoints, fitted skeleton and mesh riding a swimming white shark, with the heatmaps and the mesh in camera space"></p>
 
 <table>
 <tr>
-<td width="50%"><img src="assets/motion/pose3d-fit-optimisation.gif" width="100%" alt="The 3D fit converging step by step"></td>
-<td width="50%"><img src="assets/motion/pose3d-skeleton-overlay.gif" width="100%" alt="Skeleton and mesh outline on a swimming shark"></td>
+<td width="50%"><img src="assets/motion/pose3d-fit-optimisation.gif" width="100%" alt="The 3D fit converging step by step, with loss curves"></td>
+<td width="50%"><img src="assets/motion/pose3d-multiwindow-fusion.gif" width="100%" alt="Four video windows fused into one shape record"></td>
 </tr>
 <tr>
-<td align="center"><sub>The fit converging, step by step</sub></td>
-<td align="center"><sub>Skeleton and mesh riding a swimming shark</sub></td>
+<td align="center"><sub>The optimiser converging, step by step</sub></td>
+<td align="center"><sub>Four video windows fused into one shape</sub></td>
 </tr>
 <tr>
 <td><img src="assets/motion/terramesh-abalone-cave.gif" width="100%" alt="TerraMesh: an abalone cave scanned with an iPhone and rebuilt in 3D"></td>
