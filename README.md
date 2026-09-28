@@ -87,7 +87,7 @@ I'm looking for collaborators, field partners and labs with data. Each project l
 </tr>
 </table>
 
-## Spin it in 3D <sub>(weeeeeee)</sub>
+## Spin it in 3D
 
 <p align="center"><img src="assets/motion/easter-barrel-roll.gif" width="320" alt="My white shark model doing barrel rolls while weeeeeee types itself out" title="weeeeeee"></p>
 
